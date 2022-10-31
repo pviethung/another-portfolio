@@ -104,10 +104,6 @@ const Contact = () => {
           <p className="text-green-400">Form submitted successfully!</p>
         )}
       </div>
-      <p className="my-20 text-center font-bold">
-        P.S: I created a dark mode toggle button, it works!
-        <br /> maybe you want to give it a try.
-      </p>
     </div>
   );
 };
