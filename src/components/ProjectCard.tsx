@@ -33,7 +33,7 @@ const ProjectCard = ({
           ))}
         </ul>
       </div>
-      <div className="cursor-pointer hidden pb-4 absolute  group-hover:flex space-x-2 right-0 -top-9 [&_svg]:fill-stone-900 dark:[&_svg]:fill-white">
+      <div className="cursor-pointer hidden pb-4 absolute w-full justify-end  group-hover:flex space-x-2 right-0 -top-9 [&_svg]:fill-stone-900 dark:[&_svg]:fill-white">
         <a href={demo} title={title} target="_blank">
           <svg
             className="w-8 h-8"
