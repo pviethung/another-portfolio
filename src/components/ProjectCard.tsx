@@ -14,8 +14,13 @@ const ProjectCard = ({
   code: string;
 }) => {
   return (
-    <div className="overflow-hidden group flex flex-col justify-between rounded-md border-2 border-stone-900 dark:border-white  flex-1 dark:text-white relative">
-      <img loading="lazy" src={imageSrc} alt={title} />
+    <div className=" group flex flex-col justify-between rounded-md border-2 border-stone-900 dark:border-white  flex-1 dark:text-white relative">
+      <img
+        loading="lazy"
+        className="rounded-[4px]"
+        src={imageSrc}
+        alt={title}
+      />
       {/* <p
         dangerouslySetInnerHTML={{ __html: desc }}
         className="dark:text-stone-300 p-4"
