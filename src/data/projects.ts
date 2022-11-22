@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: 'The coffee house',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    src: './travel-thum.png',
+    desc: 'A product marketing website',
+    code: '',
+    demo: 'https://thecoffeehouse.com',
+  },
+  {
     title: 'eshop',
     tags: ['React', 'Next', 'Firebase'],
     src: './eshop-thum.png',
@@ -22,5 +30,13 @@ export const projects = [
     desc: 'A travel website, with some stunning effects, built using HTML, CSS and JavaScript. I cloned it from this <a href="https://www.udemy.com/course/advanced-css-and-sass/" title="Advanced CSS and Sass: Flexbox, Grid, Animations and More!" target="_blank">course</a>',
     code: 'https://github.com/pviethung/travel',
     demo: 'https://pviethung.github.io/travel/',
+  },
+  {
+    title: 'Bad habits',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    src: './travel-thum.png',
+    desc: 'An online fashion store',
+    code: '',
+    demo: 'https://badhabitsstore.vn/',
   },
 ];
