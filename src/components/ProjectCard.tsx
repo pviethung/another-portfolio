@@ -15,16 +15,16 @@ const ProjectCard = ({
 }) => {
   return (
     <div className=" group flex flex-col justify-between rounded-md border-2 border-stone-900 dark:border-white  flex-1 dark:text-white relative">
-      <img
+      {/* <img
         loading="lazy"
         className="rounded-[4px]"
         src={imageSrc}
         alt={title}
-      />
-      {/* <p
+      /> */}
+      <p
         dangerouslySetInnerHTML={{ __html: desc }}
         className="dark:text-stone-300 p-4"
-      ></p> */}
+      ></p>
       <div className="p-4">
         <h3 className="font-bold text-xl mb-3">{title}</h3>
         <ul className="flex flex-wrap gap-2">
