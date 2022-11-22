@@ -97,7 +97,9 @@ const Contact = () => {
           sitekey="6LcCickiAAAAAAU4hhcO9nMag_a9W0E5yc3Nw8Od"
         />
         <button
-          className=" flex items-center bg-[#e0a82e] dark:bg-[#6419e6] py-2 px-6 font-bold text-white rounded-md max-w-max"
+          className={`flex items-center bg-[#e0a82e] dark:bg-[#6419e6] py-2 px-6 font-bold text-white rounded-md max-w-max ${
+            loading ? 'pointer-events-none opacity-60' : ''
+          }`}
           type="submit"
         >
           {loading && (
